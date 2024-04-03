@@ -2,7 +2,7 @@
 -- Source: The data was sourced from the NYC DOE public data located at: https://infohub.nyced.org/reports
 -- Queried using MySQL Workbench
 
--- DATA CLEANING -- 2019-2020 Data: Pre Covid Admissions
+-- DATA CLEANING -- 2019-2020 Data: Pre-Covid Admissions Changes
 
 USE sql_gifted_talented;
 
