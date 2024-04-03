@@ -18,14 +18,14 @@ ADD CONSTRAINT PK_YearDistrict PRIMARY KEY (Year, District);
 -- Correct values with formatting issues
 UPDATE gt_results_21_22
 SET 
-	Applicants = '1111',
-	Eligible = '1024'
+    Applicants = '1111',
+    Eligible = '1024'
 WHERE Year = 2022 AND District = '2';
 
 UPDATE gt_results_21_22
 SET 
-	Applicants = '1235',
-	Eligible = '1142'
+    Applicants = '1235',
+    Eligible = '1142'
 WHERE Year = 2021 AND District = '2';
 
 -- Convert the remaining column data types
@@ -38,11 +38,11 @@ MODIFY COLUMN Offers INT;
 CREATE TABLE gt_21_22_clean
 AS
 SELECT 
-	Year,
+    Year,
     District,
     Applicants,
     Eligible,
-	(Eligible / Applicants * 100) AS Percent_Eligible_Applicants,
+    (Eligible / Applicants * 100) AS Percent_Eligible_Applicants,
     Offers,
     (Offers / Applicants * 100) AS Percent_Offers_Made_Applicants_Post_Changes
 FROM gt_results_21_22
