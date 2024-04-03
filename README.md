@@ -1,7 +1,7 @@
 # NYC-DOE-Gifted-Talented-Admissions-Analysis
 A SQL data analysis project examining the admission rates of the NYC DOE's Gifted and Talented program. 
 
-## I. Research Questions
+## I. Analysis Questions
 - What proportion of applicants receive offers for admission into NYC's gifted and talented program?
 - How do the offer rates among districts compare?
 - What changes occurred in the percentage of offers extended to applicants following the adjustments made to admissions procedures post-Covid?
