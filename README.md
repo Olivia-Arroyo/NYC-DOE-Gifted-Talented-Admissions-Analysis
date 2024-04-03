@@ -2,9 +2,9 @@
 A SQL data analysis project examining the admission rates of the NYC DOE's Gifted and Talented program. 
 
 ## I. Research Questions
--- What proportion of applicants receive offers for admission into NYC's gifted and talented program?
--- How do the offer rates among districts compare?
--- What changes occurred in the percentage of offers extended to applicants following the adjustments made to admissions procedures post-Covid?
+- What proportion of applicants receive offers for admission into NYC's gifted and talented program?
+- How do the offer rates among districts compare?
+- What changes occurred in the percentage of offers extended to applicants following the adjustments made to admissions procedures post-Covid?
 
 ## II. Collect Data
 For this data analysis data was extracted rom the NYC DOE site: https://infohub.nyced.org/reports. The data was in four different tables in one Excel file with a lot of formatting issues. The 2019 and 2020 tables had an addition column, Tested, that was not included in the 2021 and 2022 tables. The data was split into two tables in order to compare pre and post Covid admissions data: one table for 2019-2020 and a second table for 2021-2022.
