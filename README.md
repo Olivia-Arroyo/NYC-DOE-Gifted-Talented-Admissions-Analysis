@@ -19,7 +19,7 @@ Steps to clean the data in SQL:
 - Converted the remaining data types.
 
 ## IV. Analyzing the Data
-The data reveals a notable decrease in the number of applicants accepted into the Gifted and Talented program following the post-COVID admission adjustments. Across all 32 districts within the DOE, there was a lower percentage of offers made in 2021 and 2022 compared to 2019 and 2020. 
+The data reveals a notable decrease in the number of applicants accepted into the Gifted and Talented program following the post-COVID admission adjustments. Across all 32 districts within the DOE, there was a lower percentage of offers made in 2021 and 2022 compared to 2019 and 2020, making admissions to the G&T program significantly more competitive.
 
 Before the COVID-19 pandemic, admission to the G&T program relied on standardized exams. However, starting in 2021, testing was replaced with a nomination process where students were recommended by their teachers or a DOE representative specializing in early childhood education, resulting in a significant shift in admissions dynamics.
 
