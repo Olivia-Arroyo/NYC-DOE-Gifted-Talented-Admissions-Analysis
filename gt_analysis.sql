@@ -9,14 +9,14 @@
 -- Returning data from the pre and post Covid tables to compare the trends in offers from 2019 - 2022.
 
 SELECT 
-	pre.District,
+    pre.District,
     pre.Year,
     Percent_Offers_Made_Applicants_Pre_Covid AS Percent_Offers_Made
 FROM gt_19_20_clean pre 
 LEFT JOIN gt_21_22_clean post ON pre.District = post.District
 UNION
 SELECT 
-	post.District,
+    post.District,
     post.Year,
     Percent_Offers_Made_Applicants_Post_Covid
 FROM gt_21_22_clean post 
@@ -34,9 +34,9 @@ FROM gt_19_20_clean;
 -- Retrieve the highest percentage of offers made pre admission changes
 
 SELECT 
-	District,
+    District,
     Year,
-	Percent_Offers_Made_Applicants_Pre_Covid
+    Percent_Offers_Made_Applicants_Pre_Covid
 FROM gt_19_20_clean
 ORDER BY Percent_Offers_Made_Applicants_Pre_Covid DESC;
 
@@ -45,9 +45,9 @@ ORDER BY Percent_Offers_Made_Applicants_Pre_Covid DESC;
 -- Retrieve the lowest percentage of offers made pre admission changes
 
 SELECT 
-	District,
+    District,
     Year,
-	Percent_Offers_Made_Applicants_Pre_Covid
+    Percent_Offers_Made_Applicants_Pre_Covid
 FROM gt_19_20_clean
 ORDER BY Percent_Offers_Made_Applicants_Pre_Covid;
 
@@ -62,9 +62,9 @@ FROM gt_21_22_clean;
 -- Retrieve the highest percentage of offers made pre admission changes
 
 SELECT 
-	District,
+    District,
     Year,
-	Percent_Offers_Made_Applicants_Post_Covid
+    Percent_Offers_Made_Applicants_Post_Covid
 FROM gt_21_22_clean
 ORDER BY Percent_Offers_Made_Applicants_Post_Covid DESC;
 
@@ -73,8 +73,8 @@ ORDER BY Percent_Offers_Made_Applicants_Post_Covid DESC;
 -- Retrieve the lowest percentage of offers made pre admission changes
 
 SELECT 
-	District,
+    District,
     Year,
-	Percent_Offers_Made_Applicants_Post_Covid
+    Percent_Offers_Made_Applicants_Post_Covid
 FROM gt_21_22_clean
 ORDER BY Percent_Offers_Made_Applicants_Post_Covid;
