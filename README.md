@@ -7,7 +7,7 @@ A SQL data analysis project examining the admission rates of the NYC DOE's Gifte
 - What changes occurred in the percentage of offers extended to applicants following the adjustments made to admissions procedures post-Covid?
 
 ## II. Collect Data
-For this data analysis data was extracted rom the NYC DOE site: https://infohub.nyced.org/reports. The data was in four different tables in one Excel file with a lot of formatting issues. The 2019 and 2020 tables had an addition column, Tested, that was not included in the 2021 and 2022 tables. The data was split into two tables in order to compare pre and post Covid admissions data: one table for 2019-2020 and a second table for 2021-2022.
+For this data analysis data was extracted from the NYC DOE site: https://infohub.nyced.org/reports. The data was in four different tables in one Excel file with a lot of formatting issues. The 2019 and 2020 tables had an addition column, Tested, that was not included in the 2021 and 2022 tables. The data was split into two tables in order to compare pre and post Covid admissions data: one table for 2019-2020 and a second table for 2021-2022.
 
 ## III. Data Cleaning
 In order to analyze the data it was necessary to reformat the data so that it could be loaded into SQL. The tables were separated into a new Excel file and then converted the file from Excel to JSON. 
